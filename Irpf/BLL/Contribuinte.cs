@@ -86,7 +86,6 @@ namespace Irpf.BLL
 
         public Contribuinte(String nome, String cpf, int idade,
                         int nroDep, double contrPrev, double totRend)
-        //throws IllegalArgumentException
         {
             this.contrPrev = contrPrev;
             this.cpf = cpf;
